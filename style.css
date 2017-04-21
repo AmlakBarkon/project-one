@@ -3,6 +3,8 @@ body{
   padding: 0;
   background:-webkit-linear-gradient(top,gray, yellow);
 }
+/*Nice use of gradients ++ */
+
 .header-div{
   padding: 10px 0;
   display:flex;
@@ -19,6 +21,8 @@ h2, h1{
 h3{
 
 }
+/*Generally, try to remove any old / unused code before pushing to production (like the H3 above)*/
+
 .rule{
   display: flex;
   justify-content: center;
@@ -43,38 +47,38 @@ button{
 
 }
 .flex-continer{
-display:flex;
-background-color: white;
- display:flex;
-max-width: 1300px;
-margin: 40px auto 0 auto;
-line-height: 1.65;
-padding:20 50px;
-height: 500px;
-flex-wrap: wrap;
-border:7px solid gray;
-box-shadow: 40px 40px 40px gray;
+  display: flex;
+  background-color: white;
+  display: flex;
+  max-width: 1300px;
+  margin: 40px auto 0 auto;
+  line-height: 1.65;
+  padding: 20 50px;
+  height: 500px;
+  flex-wrap: wrap;
+  border: 7px solid gray;
+  box-shadow: 40px 40px 40px gray;
 }
+/*Good application of flex-box*/
 
 #table-one{
-
   flex: 1;
   order: 1;
   background:-webkit-linear-gradient(top,gray,black);
-   display:flex;
+  display:flex;
   align-items:center;
-   flex-direction: column;
-   justify-content: flex-end;
-
+  flex-direction: column;
+  justify-content: flex-end;
 }
+
 #table-two{
-  flex:1;
-  order:1;
+  flex: 1;
+  order: 1;
   background:-webkit-linear-gradient(bottom,gray,black);
   display:flex;
-   align-items:center;
-    flex-direction: column;
-    justify-content: flex-end;
+  align-items:center;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 #table-three{
   flex:1;
@@ -82,44 +86,44 @@ box-shadow: 40px 40px 40px gray;
   background:-webkit-linear-gradient(top,gray,black);
   display:flex;
   align-items:center;
-   flex-direction: column;
-   justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 #small-disk{
   background-color: green;
-  flex:1;
-width:50px;
-height: 50px;
-border-radius: 10px;
-flex-grow: 0;
-flex-basis: 60px;
+  flex: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  flex-grow: 0;
+  flex-basis: 60px;
 }
 #midium-disk{
   background-color: yellow;
-    flex:1;
-    height: 50px;
-    border-radius: 10px;
-flex-grow: 0;
-width:100px;
-flex-basis: 60px;
+  flex:1;
+  height: 50px;
+  border-radius: 10px;
+  flex-grow: 0;
+  width:100px;
+  flex-basis: 60px;
 }
 #big-disk{
   background-color: red;
-    flex:1;
+  flex:1;
   flex-grow: 0;
   border-radius: 10px;
   width:150px;
   height:50px;
   flex-basis: 60px;
-
 }
 #super-disk{
   background-color: brown;
-    flex:1;
+  flex:1;
   flex-grow: 0;
   border-radius: 10px;
   width:200px;
   height:50px;
   flex-basis: 60px;
-
 }
+
+/*Try to stay consistent with you indentations and spacing*/
