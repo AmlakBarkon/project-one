@@ -2,44 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="flexproject.js"></script>
-    <title></title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="flexproject.js"></script>
+    <title>Towers of Hanoi</title>
   </head>
   <body>
-
+    <!-- Try to stay consistent with your indentation (or use Atom's 'Beautify' plugin) -->
     <div clas="outer-contianer">
-
-    <div class="header-div">
-            <h2>Game Rule Click</h2>
-             <h3></h3>
-
-            <div class="rule">
-              <ul>
-                 <li> 1.Tower of the Hanoi not allow big disk on the top of the small</li>
-                <li>2.click the disk first and select where you want to move</li>
-                <li> 3.Best Score for this move is seven</li>
-              </ul>
-            </div>
-              <h3>Moves :<span>Count</span></h3>
-       </div>
-
-    <div class="flex-continer">
-            <div class="table" id="table-one">
-                 <div class="disk" id="small-disk"></div>
-                 <div class="disk" id="midium-disk"></div>
-                  <div class="disk" id="big-disk"></div>
-                    <div class="disk" id="super-disk"></div>
-             </div>
-            <div class="table" id="table-two">
-           </div>
-            <div class="table" id="table-three">
+      <div class="header-div">
+        <h2>Game Rule Click</h2>
+        <div class="rule">
+          <ul>
+            <li> 1. Tower of the Hanoi not allow big disk on the top of the small</li>
+            <li> 2. Click the disk first and select where you want to move</li>
+            <li> 3. Best Score for this move is seven</li>
+          </ul>
+        </div>
+        <h3>Moves :<span>Count</span></h3>
+      </div>
+      <div class="flex-continer">
+        <!-- *container -->
+        <div class="table" id="table-one">
+          <div class="disk" id="small-disk"></div>
+          <div class="disk" id="midium-disk"></div>
+          <div class="disk" id="big-disk"></div>
+          <div class="disk" id="super-disk"></div>
+        </div>
+        <div class="table" id="table-two">
+        </div>
+        <div class="table" id="table-three">
+        </div>
+      </div>
     </div>
-    </div>
-</div>
-<h1>Tower of the Hanoi</h1>
+    <h1>Tower of the Hanoi</h1>
   </body>
 </html>
