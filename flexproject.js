@@ -5,17 +5,11 @@ $(document).ready(function(){
   var targetContainer = null
   var count=1;
   function moveDisk() {
-    let smallestDisk = $(sourceContainer).children().eq(0)
-
-
+  let smallestDisk = $(sourceContainer).children().eq(0)
     smallestDisk.remove()
-
-
-
   $(targetContainer).prepend(smallestDisk)
     containerIsSelected=false;
     targetContainer= this;
-
      $("span").text(count++);if(count==8){
      $("span").text("Game Over");
      }
